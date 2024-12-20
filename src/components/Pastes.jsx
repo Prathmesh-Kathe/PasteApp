@@ -55,7 +55,7 @@ const Paste = () => {
           <h2 className="px-4 text-4xl font-bold border-b border-[rgba(128,121,121,0.3)] pb-4">
            <marquee>ALL PASTES</marquee>
           </h2>
-          <div className="w-full px-4 pt-4 flex flex-col gap-y-5  ">
+          <div className="flex flex-col gap-y-4 mt-4  ">
             {filteredPastes.length > 0 ? (
               filteredPastes.map((paste) => (
                 <div
